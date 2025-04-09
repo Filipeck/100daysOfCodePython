@@ -8,8 +8,7 @@ lives = 6
 
 # Importamos a logo de hangman_art.py e a imprimimos no início do jogo.
 print(hangman_art.logo)
-chosen_word = random.choice(word_list)
-print(chosen_word)
+chosen_word = random.choice(word_list).casefold()
 
 placeholder = "_" * len(chosen_word)
 print("Adivinhe a palavra: " + placeholder)
