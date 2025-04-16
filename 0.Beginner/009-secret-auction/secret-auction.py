@@ -11,7 +11,7 @@ while flow:
     bid_amount = float(input("Informe o valor em R$").strip())
     bids[bidder] = bid_amount
 
-    new_bidder = input("Você gostaria de fazer um novo lance? [S] | [N]\n").upper()
+    new_bidder = input("Há outro comprador que gostaria de fazer um novo lance? [S] | [N]\n").upper()
     if new_bidder == "S":
         print("\n" * 40)
         continue
@@ -24,4 +24,4 @@ for bid in bids:
         biggest_bet = bids[bid]
         biggest_bidder = bid
 
-print(f"{biggest_bidder} deu o maior lance do leilão, no valor de R${biggest_bet:.2f}")
+print(f"{biggest_bidder} deu o maior lance do leilão, no valor de R${biggest_bet:.2f}.")
