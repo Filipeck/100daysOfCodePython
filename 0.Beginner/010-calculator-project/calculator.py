@@ -21,6 +21,7 @@ def calculator():
     # damos início a construção visual do programa
     print(art.logo)
 
+    # solicitamos o primeiro número, porém fazemos verificação para confirmar que o usuário insira um valor válido
     while True:
         try:
             num1 = float(input('Informe o primeiro número: '))
@@ -29,6 +30,7 @@ def calculator():
         else:
             break
 
+    # damos sequencia no programa, solicitando próximo número e operação desejada
     while program_on:
         try:
             for symbol in operations:
