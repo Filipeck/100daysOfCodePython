@@ -300,3 +300,5 @@ data = [
         'country': 'United States'
     }
 ]
+import random
+print(data[random.randint(0, 49)])
