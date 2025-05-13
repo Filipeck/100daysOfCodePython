@@ -1,0 +1,3 @@
+# Coffee Machine
+
+O objetivo deste desafio era desenvolver uma máquina virtual de café que irá solicitar ao usuário qual a bebida desejada e após isso solicitar a ele as moedas que ele irá "inserir" para verificar o pagamento. Além disso existe uma opção oculta chamada "report" que informa o status dos ingredientes contidos na máquina e também a cada produto adquirido de forma correta é realizada uma redução nos ingredientes da máquina, com isso caso o usuário solicite outra bebida e não haja ingrediente suficiente a máquina irá alertá-lo e devolver o troco.
